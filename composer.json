@@ -1,0 +1,21 @@
+{
+  "name": "nobodyrandom/nob-api",
+  "description": "Developers' Foundation Main Website",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Harrison Chow",
+      "email": "harrison@developersfoundation.ca"
+    }
+  ],
+  "autoload": {
+    "psr-0" : {
+      "NobodyRandom\\NobAPI" : "src"
+    }
+  },
+  "require": {
+    "sendgrid/sendgrid": "4.0.4",
+    "parse/php-sdk": "1.2.0"
+  }
+}
