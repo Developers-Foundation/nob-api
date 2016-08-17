@@ -2,15 +2,16 @@
   "name": "nobodyrandom/nob-api",
   "description": "Developers' Foundation Main Website",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Harrison Chow",
-      "email": "harrison@developersfoundation.ca"
+      "email": "harrison@developersfoundation.ca",
+      "role": "Developer"
     }
   ],
   "autoload": {
-    "psr-0" : {
+    "psr-4" : {
       "NobodyRandom\\NobAPI" : "src"
     }
   },
